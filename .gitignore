@@ -1,0 +1,183 @@
+###############################################################################
+# OS / System Files
+###############################################################################
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Icon?
+desktop.ini
+*.lnk
+
+###############################################################################
+# Visual Studio / .NET
+###############################################################################
+## Build results
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+TestResults/
+*.log
+*.tlog
+*.vspscc
+*.vssscc
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.ide/
+*.dbmdl
+*.pdb
+*.mdb
+*.opendb
+*.cache
+*.bak
+*.backup
+*.tmp
+*.temp
+*.swp
+*.old
+
+## Visual Studio cache/options directory
+.vs/
+.vscode/
+.idea/
+
+## DotNet artifacts
+project.lock.json
+project.fragment.lock.json
+artifacts/
+AppPackages/
+BundleArtifacts/
+_Packages/
+_PublishTemp/
+publish/
+.nuget/
+*.nupkg
+*.snupkg
+*.nuspec
+*.dll
+*.exe
+*.runtimeconfig.json
+*.deps.json
+*.mpack
+
+## User-specific files
+*.userprefs
+*.sln.iml
+
+## Rider
+.idea/
+
+## Test coverage
+coverage/
+coverage*.json
+*.opencover.xml
+*.coverage
+*.coveragexml
+TestResult.xml
+
+###############################################################################
+# Node / TypeScript / Frontend
+###############################################################################
+# Dependency directories
+node_modules/
+jspm_packages/
+
+# Build output
+dist/
+build/
+out/
+coverage/
+.cache/
+.temp/
+.next/
+.nuxt/
+.vite/
+vite.config.ts.timestamp-*
+.Dist/
+.eslintcache
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Editor directories and files
+*.tsbuildinfo
+*.tgz
+*.log
+*.lock
+*.pid
+*.seed
+*.gz
+
+# TypeScript cache
+tsconfig.tsbuildinfo
+*.tsbuildinfo
+
+###############################################################################
+# Miscellaneous
+###############################################################################
+package-lock.json
+
+# OS-specific files
+*.bak
+*.tmp
+*.swp
+*.orig
+*.rej
+
+###############################################################################
+# Runtime / Temporary Files
+###############################################################################
+logs/
+temp/
+tmp/
+*.pid
+*.seed
+*.pid.lock
+*.sqlite
+*.sqlite3
+*.db
+
+###############################################################################
+# JetBrains Rider
+###############################################################################
+.idea/
+*.sln.iml
+
+###############################################################################
+# npm / vite / webpack cache
+###############################################################################
+.cache/
+.npm/
+.eslintcache
+.stylelintcache
+parcel-cache/
+vite.config.timestamp-*
+
+###############################################################################
+# Misc
+###############################################################################
+# Local configuration files
+*.local
+*.secret
+*.config.json
+*.key
+*.pem
+*.crt
+*.cert
+*.pfx
+*.p12
+
+###############################################################################
+# End of .gitignore
+###############################################################################

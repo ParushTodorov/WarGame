@@ -1,0 +1,223 @@
+{
+    "assets": {
+        "bundles": [
+            {
+                "name": "loading_view",
+                "assets": [
+                    {
+                        "alias": "loadingScreen",
+                        "src": "/static/LoadingScreen.png"
+                    }
+                ]
+            },
+            {
+                "name": "assets",
+                "assets": [
+                    {
+                        "alias": "background",
+                        "src": "/static/Background.png"
+                    },
+                    {
+                        "alias": "assetAtlas",
+                        "src": "/static/AssetAtlas.json"
+                    },
+                    {
+                        "alias": "endScreen",
+                        "src": "/static/EndScreen.png"
+                    }
+                ]
+            },
+            {
+                "name": "auido_assets",
+                "assets": [
+                    {
+                        "alias": "thisMeansWar",
+                        "src":"/static/sounds/ThisMeansWar.mp3"
+                    },
+                    {
+                        "alias": "startMusic",
+                        "src": "/static/sounds/StartMusic.wav"
+                    }
+                ]
+            }            
+        ]
+    },
+    "viewElements": {
+        "loadingBackground": {
+            "assetName": "loadingScreen",
+            "dimension": {
+                "x": 0,
+                "y": 0,
+                "width": 821,
+                "height": 821
+            }
+        },
+        "background": {
+            "assetName": "background",
+            "dimension": {
+                "x": -292,
+                "y": -12,
+                "width": 1534,
+                "height": 1024
+            },
+            "innerElementPosition": {
+                "1": {
+                    "x": 0,
+                    "y": 0
+                }
+            }
+        },
+        "cardHolderPlayerOne": {
+            "name": "cardHolderPlayerOne",
+            "assetName": "cardHolder",
+            "dimension": {
+                "x": 175,
+                "y": 500,
+                "width": 250,
+                "height": 350
+            },
+            "innerElementPosition": {
+                "1": {
+                    "x": 125,
+                    "y": 175
+                },
+                "2": {
+                    "x": 125,
+                    "y": 100
+                }
+            }
+        },
+        "cardHolderPlayerTwo": {
+            "name": "cardHolderPlayerTwo",
+            "assetName": "cardHolder",
+            "dimension": {
+                "x": 575,
+                "y": 500,
+                "width": 250,
+                "height": 350
+            },
+            "innerElementPosition": {
+                "1": {
+                    "x": 125,
+                    "y": 175
+                },
+                "2": {
+                    "x": 125,
+                    "y": 100
+                }
+            }
+        },
+        "deckHolderPlayerOne": {
+            "name": "deckHolderPlayerOne",
+            "assetName": "cardHolder",
+            "dimension": {
+                "x": 10,
+                "y": 60,
+                "width": 200,
+                "height": 280
+            },
+            "innerElementPosition": {
+                "1": {
+                    "x": 100,
+                    "y": 140
+                },
+                "2": {
+                    "x": 101,
+                    "y": 141
+                }
+            }
+        },
+        "deckHolderPlayerTwo": {
+            "name": "deckHolderPlayerTwo",
+            "assetName": "cardHolder",
+            "dimension": {
+                "x": 790,
+                "y": 60,
+                "width": 200,
+                "height": 280
+            },
+            "innerElementPosition": {
+                "1": {
+                    "x": 100,
+                    "y": 140
+                },
+                "2": {
+                    "x": 101,
+                    "y": 141
+                }
+            }
+        },
+        "bigPopUp": {
+            "name": "bigPopUp",
+            "assetName": "cardHolder",
+            "dimension": {
+                "x": 125,
+                "y": 125,
+                "width": 750,
+                "height": 750
+            },
+            "rotate": true,
+            "innerElementPosition": {
+                "1": {
+                    "x": 0,
+                    "y": 0
+                },
+                "2": {
+                    "x": 0,
+                    "y": -225
+                }
+            }
+        },
+        "smallPopUp": {
+            "name": "smallPopUp",
+            "assetName": "smallPopUp",
+            "dimension": {
+                "x": 500,
+                "y": 150,
+                "width": 400,
+                "height": 100
+            },
+            "innerElementPosition": {
+                "1": {
+                    "x": 0,
+                    "y": 0
+                }
+            }
+        },
+        "counter": {
+            "name": "counter",
+            "assetName": "counter",
+            "dimension": {
+                "x": 350,
+                "y": 260,
+                "width": 300,
+                "height": 150
+            },
+            "innerElementPosition": {
+                "1": {
+                    "x": 150,
+                    "y": 75
+                }
+            }
+        },
+        "endBackground": {
+            "assetName": "endScreen",
+            "dimension": {
+                "x": 0,
+                "y": 0,
+                "width": 1024,
+                "height": 1024
+            }
+        }
+    },
+    "alwaysOnTop": {
+        "x": 0,
+        "y": 0,
+        "width": 1000,
+        "height": 850
+    },
+    "pivot": {
+        "x": 500,
+        "y": 450
+    }
+}
