@@ -41,7 +41,7 @@ namespace WarGame.Services.TableManager
 
         private ITable GetTable(bool isMaxRoundActive = false, bool isTimebankActive = false)
         {
-            if (_tablesWithOnePlayer.Count > 0 && !(isMaxRoundActive && isTimebankActive))
+            if (_tablesWithOnePlayer.Count > 0 && !(isMaxRoundActive || isTimebankActive))
             {
                 return _tablesWithOnePlayer.Dequeue();
             }
